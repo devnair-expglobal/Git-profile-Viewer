@@ -25,7 +25,6 @@
                         ],
                         "styles": [
                             "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-                            // E:\projectGit\gitSearch\node_modules\bootstrap
                             "node_modules/ngx-toastr/toastr.css",
                             "src/styles.css"
                         ],

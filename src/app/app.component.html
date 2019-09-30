@@ -10,7 +10,7 @@
 
 
     <div class="find">
-        <button type="submit" class=".findButton" mat-raised-button color="primary" (click)="getProfile(username)">Find</button>
+        <button type="submit" class="findButton" mat-raised-button color="primary" (click)="getProfile(username)">Find</button>
     </div>
     <!-- <mat-progress-spinner class="example-margin" [color]="color" [mode]="mode" [value]="value">
     </mat-progress-spinner> -->
@@ -18,7 +18,8 @@
     <div *ngIf=loader>
         <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
     </div>
-    <mat-card class="profileCard">
+
+    <mat-card class="profileCard" *ngIf=dataAvailable>
         <mat-card-header>
             <h1>{{tagName}}</h1>
             <!-- name -->
